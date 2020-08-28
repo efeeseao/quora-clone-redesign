@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: var(--black);
+    background: var(--white);
   }
 
   :root {
