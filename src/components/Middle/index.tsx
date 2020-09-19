@@ -1,9 +1,21 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import FeedShare from './FeedShare';
+import FeedPost from './FeedPost';
+
+import * as S from './styles';
 
 const Middle: React.FC = () => {
-  return <h1>Olá Mundo!</h1>;
+  return (
+    <S.Container>
+      <FeedShare />
+      <FeedPost />
+      <FeedPost />
+      <FeedPost />
+      <FeedPost />
+      <FeedPost />
+    </S.Container>
+  );
 };
 
 export default Middle;
