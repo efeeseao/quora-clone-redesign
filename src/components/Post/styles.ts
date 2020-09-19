@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
+  > h1,
+  p {
+    padding: 0 1rem 1rem 1rem;
+  }
+
   > h1 {
     font-size: 2rem;
     font-weight: bold;
