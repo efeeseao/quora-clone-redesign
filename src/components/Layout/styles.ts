@@ -9,6 +9,8 @@ export const Container = styled.main`
 `;
 
 export const Layout = styled.section`
+  background: var(--color-input);
+
   @media (min-width: 1180px) {
     margin: 0 1.875rem;
     display: flex;
