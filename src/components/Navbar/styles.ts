@@ -18,6 +18,7 @@ export const Nav = styled.header`
   left: 0;
   z-index: 2;
   display: none;
+  margin-bottom: 8px;
 
   @media (min-width: 1180px) {
     display: block;
