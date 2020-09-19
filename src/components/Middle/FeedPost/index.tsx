@@ -1,7 +1,9 @@
 import React from 'react';
 
 import Panel from '../../Panel';
+import Post from '../../Post';
 
+import dog from '../../../assets/images/dog.jpg';
 import * as S from './styles';
 
 const FeedPost: React.FC = () => {
@@ -20,8 +22,11 @@ const FeedPost: React.FC = () => {
             </S.Column>
           </S.Heading>
         </S.Row>
-        <S.PostImage
-          src='https://qph.fs.quoracdn.net/main-qimg-a37c821185f88512a32d7034646144a6'
+
+        <Post
+          title='What is like to meet Jackie Chan?'
+          text='Right after the set, I’m just ordinary people'
+          img={dog}
           alt='Elon Musk'
         />
 

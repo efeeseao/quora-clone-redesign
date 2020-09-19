@@ -50,11 +50,6 @@ export const Update = styled.time`
   color: var(--color-gray);
 `;
 
-export const PostImage = styled.img`
-  width: 100%;
-  padding: 1rem;
-`;
-
 export const Separator = styled.div`
   width: 100%;
   height: 1px;
