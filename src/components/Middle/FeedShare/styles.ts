@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.main`
   background: var(--color-background);
+  border-radius: 4px;
 `;
 
 export const WriteField = styled.section`
@@ -11,8 +12,8 @@ export const WriteField = styled.section`
 `;
 
 export const WriteImg = styled.img`
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1.75rem;
+  height: 1.75rem;
 `;
 
 export const WriteText = styled.span`

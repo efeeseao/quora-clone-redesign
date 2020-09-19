@@ -7,9 +7,11 @@ const FeedPost: React.FC = () => {
     <S.Container>
       <S.Row>
         <S.Heading>
-          <S.Avatar src='htts://github.com/codder404.png' />
           <S.Column>
+            <S.Avatar src='https://github.com/codder404.png' alt='Fernando' />
             <S.Title>Fernando</S.Title>
+          </S.Column>
+          <S.Column>
             <S.SubTitle>Front-End Developer</S.SubTitle>
             <S.Update>Update November, 2019</S.Update>
           </S.Column>

@@ -16,17 +16,21 @@ export const Row = styled.section`
 `;
 
 export const Heading = styled.div`
-  padding: 12px 0 8px;
+  padding: 0.75rem 0 8px;
 `;
 
 export const Avatar = styled.img`
-  width: 48px;
-  height: 48px;
+  width: 3.125rem;
+  height: 3.125rem;
   border-radius: 50%;
   margin-right: 8px;
+  margin-bottom: 8px;
 `;
 
-export const Column = styled.div``;
+export const Column = styled.div`
+  display: flex;
+  align-items: center;
+`;
 
 export const Title = styled.h3`
   font-size: 0.875rem;
@@ -34,13 +38,14 @@ export const Title = styled.h3`
 `;
 
 export const SubTitle = styled.h4`
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: normal;
   color: var(--color-gray);
+  margin-right: 0.75rem;
 `;
 
 export const Update = styled.time`
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: normal;
   color: var(--color-gray);
 `;
@@ -67,13 +72,13 @@ export const Actions = styled.div`
 export const FeedIcons = styled.button`
   display: flex;
   align-items: center;
-  padding: 14px 8px;
+  padding: 0.875rem 8px;
 
   background: none;
   border: none;
   outline: none;
   color: var(--color-gray);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   cursor: pointer;
 
