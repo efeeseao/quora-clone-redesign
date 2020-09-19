@@ -6,13 +6,27 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
-
-  body {
-    background: var(--white);
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+    background: var(--color-background);
   }
-
+  *, button, input {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+  }
   :root {
-    --black: #000;
-    --white: #FFF;
+    --color-header: #283e4a;
+    --color-quora: #b92b27;
+    --color-input: #e1e9ee;
+    --color-background: rgba(0,0,0);
+    --color-ad-text: #434649;
+    --color-panel: #fff;
+    --color-link: rgb(46,105,255);
+    --color-black: rgba(40,40,41);
+    --color-border: #dee0e1;
+    --color-gray: #636466;
+    --color-gray-light: #939598;
+    --color-separator: rgba(0,0,0,0.15);
+    --color-white: #fff;
   }
 `;
