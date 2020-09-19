@@ -24,10 +24,10 @@ const FeedPost: React.FC = () => {
         </S.Row>
 
         <Post
-          title='What is like to meet Jackie Chan?'
-          text='Right after the set, I’m just ordinary people'
+          title="Why don't dogs live forever?"
+          text='According to the researchers, this is because puppies of larger breeds have a faster metabolism, as they need more energy to grow compared to smaller dogs - and, even with a short time of life, free radicals can already cause long-term damage. in animals.'
           img={dog}
-          alt='Elon Musk'
+          alt='Dog'
         />
 
         <S.Row>
