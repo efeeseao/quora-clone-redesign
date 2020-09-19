@@ -49,20 +49,6 @@ export const PostImage = styled.img`
   width: 100%;
 `;
 
-export const Likes = styled.div`
-  padding: 8px 0;
-  font-size: 12px;
-  color: var(--color-gray);
-`;
-
-export const SpanBlue = styled.span`
-  background: var(--color-link);
-`;
-
-export const SpanGray = styled.span`
-  background: var(--color-gray);
-`;
-
 export const Separator = styled.div`
   width: 100%;
   height: 1px;
@@ -70,6 +56,7 @@ export const Separator = styled.div`
 `;
 
 export const Actions = styled.div`
+  display: flex;
   justify-content: space-between;
 
   @media (min-width: 1180px) {

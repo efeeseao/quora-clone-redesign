@@ -10,7 +10,7 @@ const FeedPost: React.FC = () => {
           <S.Avatar src='htts://github.com/codder404.png' />
           <S.Column>
             <S.Title>Fernando</S.Title>
-            <S.SubTitle>Front-End Dev</S.SubTitle>
+            <S.SubTitle>Front-End Developer</S.SubTitle>
             <S.Update>Update November, 2019</S.Update>
           </S.Column>
         </S.Heading>
@@ -20,13 +20,6 @@ const FeedPost: React.FC = () => {
         alt='Elon Musk'
       />
 
-      <S.Row>
-        <S.Likes>
-          <S.SpanBlue>One</S.SpanBlue>
-          <S.SpanGray>Two</S.SpanGray>
-          <S.SpanGray>Three</S.SpanGray>
-        </S.Likes>
-      </S.Row>
       <S.Row>
         <S.Separator />
       </S.Row>
