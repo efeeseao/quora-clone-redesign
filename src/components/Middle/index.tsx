@@ -3,7 +3,7 @@ import React from 'react';
 // import { Container } from './styles';
 
 const Middle: React.FC = () => {
-  return <div />;
+  return <h1>Olá Mundo!</h1>;
 };
 
 export default Middle;
