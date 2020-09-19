@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
     --color-header: #283e4a;
     --color-quora: #b92b27;
     --color-input: #e1e9ee;
-    --color-background: rgba(0,0,0);
+    --color-background: #fff;
     --color-ad-text: #434649;
     --color-panel: #fff;
     --color-link: rgb(46,105,255);
