@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Navbar from './Navbar';
+import LayoutCom from './Layout';
 
 const Layout: React.FC = () => {
-  return <Navbar />;
+  return <LayoutCom />;
 };
 
 export default Layout;
