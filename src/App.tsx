@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Navbar from './components/Navbar';
+import Home from './pages';
 
 import { GlobalStyle } from './styles/globalStyles';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Navbar />
+      <Home />
     </>
   );
 }
