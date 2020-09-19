@@ -26,6 +26,7 @@ export const GlobalStyle = createGlobalStyle`
     --color-border: #dee0e1;
     --color-gray: #636466;
     --color-gray-light: #939598;
+    --color-check: rgb(45, 150, 85);
     --color-separator: rgba(0,0,0,0.15);
     --color-white: #fff;
   }
