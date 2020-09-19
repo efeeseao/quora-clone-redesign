@@ -1,6 +1,7 @@
 import React from 'react';
 
 import LeftBar from '../Leftbar';
+import Middle from '../Middle';
 import RightBar from '../Rightbar';
 import NavBar from '../Navbar';
 
@@ -12,7 +13,7 @@ const Layout: React.FC = () => {
       <NavBar />
       <S.Layout>
         <LeftBar />
-
+        <Middle />
         <RightBar />
       </S.Layout>
     </S.Container>
