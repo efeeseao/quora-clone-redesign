@@ -4,6 +4,7 @@ import { Comment } from '@styled-icons/evil';
 
 export const Container = styled.main`
   margin-top: 8px;
+  margin-bottom: 12px;
 
   @media (min-width: 1180px) {
     margin-top: 1rem;
