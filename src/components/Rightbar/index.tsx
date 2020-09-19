@@ -1,9 +1,15 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import Feed from './Feed';
+
+import * as S from './styles';
 
 const Rightbar: React.FC = () => {
-  return <div />;
+  return (
+    <S.Container>
+      <Feed />
+    </S.Container>
+  );
 };
 
 export default Rightbar;
