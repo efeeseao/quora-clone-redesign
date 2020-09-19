@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Home from './pages';
+import Routes from './routes';
 
 import { GlobalStyle } from './styles/globalStyles';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Home />
+      <Routes />
     </>
   );
 }

@@ -1,18 +1,22 @@
 import React from 'react';
 
-import QuoraLogo from '../../assets/images/quora-ar21.svg';
+import logo from '../../assets/images/logo.svg';
 
 import * as G from '../../styles/globalStyles';
 import * as S from './styles';
 
-const Header: React.FC = () => {
+const Navbar: React.FC = () => {
   return (
     <S.Nav>
       <S.NavbarContainer>
         <S.NavLeft>
           <S.NavQuoraLogo>
-            <QuoraLogo />
-            <S.SearchInput placeholder='Search Quora' />
+            <S.QuoraLogo src={logo} alt='' />
+            <S.SearchInput
+              type='search'
+              name='search'
+              placeholder='Search Quora'
+            />
           </S.NavQuoraLogo>
         </S.NavLeft>
 
@@ -50,4 +54,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default Navbar;

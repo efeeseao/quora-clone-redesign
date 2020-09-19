@@ -11,6 +11,8 @@ export const NavLeft = styled.div``;
 
 export const NavQuoraLogo = styled.div``;
 
+export const QuoraLogo = styled.img``;
+
 export const SearchInput = styled.input``;
 
 export const NavRight = styled.div``;
