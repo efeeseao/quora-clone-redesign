@@ -33,6 +33,7 @@ export const GlobalStyle = createGlobalStyle`
 
 export const Button = styled.button`
   border-radius: 4px;
+  margin-left: 12px;
   background: var(--color-quora);
   white-space: nowrap;
   padding: 0.625rem 1.25rem;
