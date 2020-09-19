@@ -31,4 +31,19 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
-export const Button = styled.button``;
+export const Button = styled.button`
+  border-radius: 4px;
+  background: var(--color-quora);
+  white-space: nowrap;
+  padding: 0.625rem 1.25rem;
+  color: var(--color-white);
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    filter: brightness(90%);
+  }
+`;
