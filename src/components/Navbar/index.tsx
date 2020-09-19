@@ -40,6 +40,7 @@ const Navbar: React.FC = () => {
             </S.NavItem>
             <S.NavItem>
               <S.Global />
+              <span>Add language</span>
             </S.NavItem>
             <S.NavBtn>
               <G.Button>Add Question</G.Button>
