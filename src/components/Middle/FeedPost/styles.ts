@@ -35,13 +35,13 @@ export const Column = styled.div`
 export const Title = styled.h3`
   font-size: 0.875rem;
   color: var(--color-black);
+  margin-right: 0.75rem;
 `;
 
 export const SubTitle = styled.h4`
   font-size: 0.75rem;
   font-weight: normal;
   color: var(--color-gray);
-  margin-right: 0.75rem;
 `;
 
 export const Update = styled.time`
@@ -52,6 +52,7 @@ export const Update = styled.time`
 
 export const PostImage = styled.img`
   width: 100%;
+  padding: 1rem;
 `;
 
 export const Separator = styled.div`
