@@ -1,44 +1,122 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://www.twitter.com/codder404/">
+    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https://github.com/codder404/quora-clone-redesign">
+  </a>
+    
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/codder404/quora-clone-redesign/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/codder404/README-quora-clone-redesign?style=social">
+  </a>
+  
+ 
+</p>
+<h1 align="center">
+    <img alt="Quora-clone-redesign" title="#Quora-clone-redesign" src="./src/assets/images/quora.jpg" />
+</h1>
 
-## Available Scripts
+<h4 align="center"> 
+ <img alt="Quora" title="Logo" src="./src/assets/images/logo.svg"/>
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> • 
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
 
-### `yarn start`
+## 💻 Sobre o projeto
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+🚀 Quora - Quora é um website de perguntas e respostas onde as perguntas são feitas, respondidas, editadas e organizadas por sua comunidade de usuários
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Projeto desenvolvido durante a **O FINAL DE SEMANA**
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Como executar o projeto
 
-### `yarn build`
+Este projeto é divido em uma parte:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Frontend
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### `yarn eject`
+#### 🧭 Rodando a aplicação
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Clone este repositório
+$ git clone git@github.com:codder404/quora-clone-redesign
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd quora-clone-redesign
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Instale as dependências
+$ yarn install
 
-## Learn More
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Website** ([React](https://reactjs.org/))
+
+- **[Styled-icons](https://styled-icons.js.org/)**
+- **[Styled-components](https://styled-components.com/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+
+> Veja o arquivo [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/web/package.json)
+
+#### [](https://github.com/tgmarinho/Ecoleta#utilit%C3%A1rios)**Utilitários**
+
+- Protótipo: **[Quora](https://www.quora.com/)**
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+- Markdown: **[StackEdit](https://stackedit.io/)**, **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
+- Ícones: **[Styled-icons](https://react-icons.github.io/react-icons/)**, **[Font Awesome](https://fontawesome.com/)**
+- Fontes: **[Roboto](https://fonts.google.com/specimen/Roboto)**
+
+---
+
+## 💪 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+   > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+
+---
+
+## 🦸 Autor
+
+<a href="https://www.linkedin.com/in/fernandosantosc/">
+ <img style="border-radius: 50%;" src="https://github.com/codder404.png" width="100px;" alt=""/>
+ <br />
+ <sub><b>Fernando dos Santos</b></sub></a> <a href="https://www.linkedin.com/in/fernandosantosc/" title="Fernando">🚀</a>
+ <br />
+
+[![Twitter Badge](https://img.shields.io/badge/-@codder404-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/codder404)](https://twitter.com/codder404) [![Linkedin Badge](https://img.shields.io/badge/-Fernando-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fernandosantosc/)](https://www.linkedin.com/in/fernandosantosc/)
+[![Gmail Badge](https://img.shields.io/badge/-nando4803@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nando4803@gmail.com)](mailto:nando4803@gmail.com)
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com ❤️ por Fernando dos Santos 👋🏽 [Entre em contato!](https://www.linkedin.com/in/fernandosantosc/)
+
+---
